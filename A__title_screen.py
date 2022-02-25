@@ -1,6 +1,4 @@
-          #VARIABLES
 load = False
-          #TEXT + ART MADE OF TEXT
 print(" |  /|  /  __   __  __|   |  /|  /  __     __  __ .   __   __")
 print("  |/  |/  |__| |   |__|    |/  |/  |__|_  |   |   |  |__|  |")
 for space in range(2):
@@ -23,7 +21,8 @@ print("         |      |        \    /")
 print("         |      |         |  |")
 for space in range(6):
   print()
-            #CONTINUE FUNCTION
+
+  
 for contunue in range(10000000):
   continue_function = input("press c to continue    ")
   if continue_function == "c":
@@ -32,7 +31,7 @@ for contunue in range(10000000):
   if continue_function == "C":
     load = True
     break
-            #LOADING SCREEN
+    
 if load == True:
   import time
 import random
@@ -79,3 +78,4 @@ for loading_screen in range(random.randint(1,5)):
   time.sleep(0.75)
   for space in range(39):
     print()
+import B__intro
