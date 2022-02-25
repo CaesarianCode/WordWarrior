@@ -34,12 +34,12 @@ for loading_screen in range(random.randint(1,5)):
   print("                          Loading.")
   time.sleep(0.75)
   for space in range(39):
-      print()
+    print()
   print("                          Loading..")
   time.sleep(0.75)
   for space in range(39):
-      print()
+    print()
   print("                          Loading...")
   time.sleep(0.75)
   for space in range(39):
-      print()
+    print()
